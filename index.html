@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="scroll-snap-type: y proximity">
+<html lang="en">
 	<head>
 		<!-- Required meta tags -->
 		<meta charset="utf-8" />
@@ -17,13 +17,8 @@
 		<title>Lemon8</title>
 	</head>
 	<body
-		data-spy="scroll"
-		data-target=".navbar"
-		data-offset="50"
 		data-bs-spy="scroll"
 		data-bs-target="#my-navbar"
-		data-bs-offset="0"
-		tabindex="0"
 	>
 		<!-- Navbar -->
 		<div class="container-fluid sticky-top bg-white" id="nav-container">
@@ -60,7 +55,7 @@
 					<div class="collapse navbar-collapse" id="navbarNav">
 						<ul class="navbar-nav">
 							<li class="nav-item">
-								<a class="nav-link" href="#hero-sec">Home</a>
+								<a class="nav-link active" href="#hero-sec">Home</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#service-sec"
@@ -81,7 +76,7 @@
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Contact</a>
+								<a class="nav-link" href="#contact-sec">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -212,7 +207,7 @@
 		</div>
 
 		<!-- ABOUT US SECTION -->
-		<div class="container px-4 py-7 scroll-snap-child" id="about-sec">
+		<div class="container px-4 py-7  my-5" id="about-sec">
 			<div class="row flex-lg-row-reverse align-items-center py-7 g-5">
 				<div
 					class="
@@ -401,43 +396,129 @@
 
 		<!-- Clients Section -->
 		<div
-			class="container-fluid my-5 parallax"
+			class="container-fluid my-5 set-bg parallax"
 			id="client-sec"
-			style="background-image: url('./assets/images/lemons.png')"
+			style="background-image: url('./assets/images/lemon_bg.png')"
 		>
 			<div
 				class="
 					container
-					flex-lg-row-reverse
+					flex-row
 					align-items-center
-					g-5
 					py-5
 				"
 			>
-				<!-- <div class="col-10 col-sm-8 col-lg-6">
-					<img
-						src="assets/images/Quality-Speed.png"
-						class="mx-lg-auto img-fluid"
-						alt="Bootstrap Themes"
-						loading="lazy"
-					/>
-				</div> -->
-
-				<div class="col-lg-6">
-					<h1 class="display-10 fw-bold lh-1 mb-3">
-						Quality and
-						<span style="color: #f8d708">Speed</span>
+				<div class="col-12">
+					<h1 class="fw-bold mb-3 text-center">
+						Zero Unsatisfied
+						<span style="color: #f8d708">Clients</span>
 					</h1>
-					<p class="lead">
-						Well, we are fast and complete our tasks in the least
-						amount of time possible to get your website or app up
-						and running. Psst, here’s a little secret: we once
-						developed and deployed a static website under 3 hours
-						for a client!
-					</p>
-					<div
-						class="d-grid gap-2 d-md-flex justify-content-md-start"
-					></div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 py-2">
+						<div class="card border-0 bg-transparent">
+							<div class="card-body p-5 d-flex flex-column align-items-center justify-content-center hover-a smooth-anim" style="background-color: #f0fbe4;">
+								<img src="./assets/images/navbar_logo.png" width="100%">
+							</div>
+							<div class="card-body p-0 py-3">
+								<h1 class="card-title fw-bold">Lemon 8</h1>
+								<h4 class="card-text text-secondary">Branding and UX</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 py-2">
+						<div class="card border-0 bg-transparent hover-b smooth-anim">
+							<div class="card-body p-5 d-flex flex-column align-items-center justify-content-center" style="background-color: #f0fbe4;">
+								<img src="./assets/images/navbar_logo.png" width="100%">
+							</div>
+							<div class="card-body p-0 py-3">
+								<h1 class="card-title fw-bold">Lemon 8</h1>
+								<h4 class="card-text text-secondary">Branding and UX</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 py-2">
+						<div class="card border-0 bg-transparent">
+							<div class="card-body p-5 d-flex flex-column align-items-center justify-content-center hover-b smooth-anim" style="background-color: #f0fbe4;">
+								<img src="./assets/images/navbar_logo.png" width="100%">
+							</div>
+							<div class="card-body p-0 py-3">
+								<h1 class="card-title fw-bold">Lemon 8</h1>
+								<h4 class="card-text text-secondary">Branding and UX</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 py-2">
+						<div class="card curve-radius border-0 hover-a smooth-anim">
+							<div class="card-body curve-radius p-5 d-flex flex-column align-items-center justify-content-center" style="background-color: #f0fbe4; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;">
+								<img src="./assets/images/navbar_logo.png" width="100%">
+							</div>
+							<div class="card-body curve-radius">
+								<h1 class="card-title fw-bold">Lemon 8</h1>
+								<h4 class="card-text text-secondary">Branding and UX</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 py-2">
+						<div class="card curve-radius border-0 hover-b smooth-anim">
+							<div class="card-body curve-radius p-5 d-flex flex-column align-items-center justify-content-center" style="background-color: #f0fbe4; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;">
+								<img src="./assets/images/navbar_logo.png" width="100%">
+							</div>
+							<div class="card-body curve-radius">
+								<h1 class="card-title fw-bold">Lemon 8</h1>
+								<h4 class="card-text text-secondary">Branding and UX</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Contact Section -->
+		<div
+			class="container-fluid my-5"
+			id="contact-sec"
+		>
+			<div
+				class="
+					container
+					flex-row
+					align-items-center
+					py-5
+				"
+			>
+				<div class="col-12">
+					<h1 class="fw-bold mb-2 text-center">
+						Lets’s Build Something
+						<span style="color: #f8d708">Great</span>
+					</h1>
+					<h3 class="fw-bold mb-5 text-center text-secondary">
+						Email, call or Whatsapp us and lets create big things together :)
+					</h3>
+				</div>
+
+				<div class="row">
+					<div class="card p-0 border-0 mb-3 shadow">
+						<div class="row g-0">
+						  	<div class="col-md-4">
+								<div class="card-body set-bg" style="background-image: url('./assets/images/lemon_bg.png'); overflow: hidden;">
+									<h3 class="card-title fw-bold">Contact Information</h3>
+									<h6 class="card-text">Fill up the form or reach out to us on the below details.</h6>
+									<img src="./assets/images/navbar_logo.png" width="80%" style="position: relative; right: -70%;">
+								</div>
+							</div>		
+						  <div class="col-md-8">
+							<div class="card-body">
+							  <h5 class="card-title">Card title</h5>
+							  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							</div>
+						  </div>
+						</div>
+					  </div>
 				</div>
 			</div>
 		</div>
@@ -455,7 +536,6 @@
 			crossorigin="anonymous"
 		></script>
 		<script src="./assets/js/index.js"></script>
-		<script src="./assets/js/snap-scroll.min.js"></script>
 
 		<!-- <script>
 			$(function () {

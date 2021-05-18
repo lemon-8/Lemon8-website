@@ -1,6 +1,10 @@
-body {
-	position: relative;
+html, body{
+	scroll-snap-type: y proximity;
 }
+
+/* body {
+	position: relative;
+} */
 
 .landing-img {
 	height: 100vh;
@@ -15,17 +19,37 @@ body {
 	scroll-snap-align: start end;
 }
 
-.parallax {
+.curve-radius {
+	border-radius: 1.1rem;
+}
+
+.hover-a:hover {
+	box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.175);
+	transition: all 0.3s ease;
+}
+
+.hover-b:hover {
+	transform: scale(0.96) translateZ(0);
+	transition: all 0.3s ease;
+}
+
+.smooth-anim {
+	transition: all 0.3s ease;
+}
+
+.set-bg {
 	/* background-image: url("./lemons.png"); */
 
-	/* Full height */
-	height: 100%;
+	box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.8);
 
 	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.parallax {
+	background-attachment: fixed;
 }
 
 @media (min-width: 768px) {
