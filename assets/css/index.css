@@ -2,9 +2,9 @@ html, body{
 	scroll-snap-type: y proximity;
 }
 
-/* body {
+body {
 	position: relative;
-} */
+}
 
 .landing-img {
 	height: 100vh;
