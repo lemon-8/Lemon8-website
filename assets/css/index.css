@@ -1,0 +1,40 @@
+body {
+	position: relative;
+}
+
+.landing-img {
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100vh;
+	z-index: 1021;
+}
+
+.scroll-snap-child {
+	scroll-snap-align: start end;
+}
+
+.parallax {
+	/* background-image: url("./lemons.png"); */
+
+	/* Full height */
+	height: 100%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media (min-width: 768px) {
+	.active:after {
+		content: "";
+		display: block;
+		width: 50%;
+		background-color: #f8d708;
+		border-radius: 50rem;
+		border: 1.5px solid #f8d708;
+	}
+}
