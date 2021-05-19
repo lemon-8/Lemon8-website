@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
 	scroll-snap-type: y proximity;
 }
 
@@ -61,4 +62,24 @@ body {
 		border-radius: 50rem;
 		border: 1.5px solid #f8d708;
 	}
+}
+
+.m-13 {
+	margin-top: 13%;
+}
+.btn-primary {
+	background-color: #f8d708;
+	border-color: #f8d708;
+}
+.btn-primary:hover {
+	background-color: #ffe646;
+	border-color: #ffe646;
+}
+.btn-primary:focus {
+	background-color: #ffe646;
+	border-color: #ffe646;
+}
+.btn-primary:active {
+	background-color: #ffe646;
+	border-color: #ffe646;
 }
