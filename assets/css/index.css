@@ -83,3 +83,6 @@ body {
 	background-color: #ffe646;
 	border-color: #ffe646;
 }
+.card-body {
+	border-radius: 15px;
+}
