@@ -12,15 +12,25 @@
 			integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+		/>
 		<link href="./assets/css/index.css" rel="stylesheet" />
-
+		<link
+			rel="icon"
+			href="assets/images/favicon.png"
+			type="image/png"
+			sizes="16x16"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Lemon8</title>
 	</head>
-	<body
-		data-bs-spy="scroll"
-		data-bs-target="#my-navbar"
-	>
+	<body data-bs-spy="scroll" data-bs-target="#my-navbar">
 		<!-- Navbar -->
 		<div class="container-fluid sticky-top bg-white" id="nav-container">
 			<nav
@@ -57,7 +67,9 @@
 					<div class="collapse navbar-collapse" id="navbarNav">
 						<ul class="navbar-nav">
 							<li class="nav-item">
-								<a class="nav-link active" href="#hero-sec">Home</a>
+								<a class="nav-link active" href="#hero-sec"
+									>Home</a
+								>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#service-sec"
@@ -78,7 +90,9 @@
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#contact-sec">Contact</a>
+								<a class="nav-link" href="#contact-sec"
+									>Contact</a
+								>
 							</li>
 						</ul>
 					</div>
@@ -89,7 +103,7 @@
 		<!-- Hero Section -->
 		<div class="container px-4 py-5 vh-100 scroll-snap-child" id="hero-sec">
 			<div
-				class="row flex-lg-row-reverse align-items-center g-5"
+				class="row flex-lg-row-reverse align-items-center g-5 m-13"
 				id="hero-text"
 			>
 				<div class="col-10 col-sm-8 col-lg-6">
@@ -119,7 +133,7 @@
 					>
 						<button
 							type="button"
-							class="btn btn-warning btn-lg px-4 me-md-2"
+							class="btn btn-primary btn-lg px-4 me-md-2"
 						>
 							Get in Touch
 						</button>
@@ -209,77 +223,318 @@
 		</div>
 
 		<!-- ABOUT US SECTION -->
-		<div class="container px-4 py-7  my-5" id="about-sec">
-			<div class="row flex-lg-row-reverse align-items-center py-7 g-5">
-				<div
-					class="
-						col-10 col-sm-8 col-lg-12
-						d-flex
-						justify-content-center
-					"
-				>
-					<h1 class="display-10 fw-bold lh-1 mb-3">
-						About the
-						<span style="color: #f8d708">Team</span>
-					</h1>
-				</div>
-				<div class="col-10 col-sm-8 col-lg-12">
-					<img
-						src="assets/images/laptops.png"
-						class="mx-lg-auto img-fluid h-5"
-						alt="Bootstrap Themes"
-						loading="lazy"
-					/>
-				</div>
-				<div class="row">
-					<div>
-						<h2>Who are <span style="color: #f8d708">we?</span></h2>
-						<p>
-							We are a team of energetic developers, UI/UX
-							designers, content writers and engineers experienced
-							in creating digital products for more than five
-							years now (Yes, we don’t really sleep a lot). We
-							have created multiple websites from scratch very
-							quickly with elegant and responsive designs. We have
-							developed and deployed apps on the PlayStore and the
-							Appstore and have worked with multiple cloud
-							services. We are driven by a passion that all brands
-							big and small should be able to launch their digital
-							business products quickly, with the best designs and
-							with the most efficient codes.
-						</p>
+		<div id="about-sec">
+			<div class="container-fluid my-5">
+				<div class="container flex-row align-items-center py-5">
+					<div
+						class="
+							col-10 col-sm-8 col-lg-12
+							d-flex
+							justify-content-center
+						"
+					>
+						<h1 class="display-5 fw-bold lh-1 mb-3">
+							About the
+							<span style="color: #f8d708">Team</span>
+						</h1>
 					</div>
-					<div>
-						<h2>
-							What do we <span style="color: #f8d708">know?</span>
-						</h2>
+					<div class="col-10 col-sm-8 col-lg-12 text-center">
+						<img
+							src="assets/images/laptops.png"
+							class="mx-lg-auto img-fluid w-75"
+							alt="Bootstrap Themes"
+							loading="lazy"
+						/>
 					</div>
-					<div>
-						<div class="card" style="width: 18rem">
-							<div class="card-body">
-								<h3 class="card-title">Design 🎨</h3>
-								<p class="card-text">
-									Logos, Wireframing, Graphics, Prototyping
-									using Adobe XD, Figma and more.
-								</p>
+
+					<div class="row my-5">
+						<div class="col-12">
+							<h2 class="display-8 fw-bold lh-1 mb-4">
+								Who are <span style="color: #f8d708">we?</span>
+							</h2>
+							<p class="lead">
+								We are a team of energetic developers, UI/UX
+								designers, content writers and engineers
+								experienced in creating digital products for
+								more than five years now (Yes, we don’t really
+								sleep a lot). We have created multiple websites
+								from scratch very quickly with elegant and
+								responsive designs. We have developed and
+								deployed apps on the PlayStore and the Appstore
+								and have worked with multiple cloud services. We
+								are driven by a passion that all brands big and
+								small should be able to launch their digital
+								business products quickly, with the best designs
+								and with the most efficient codes.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div
+				class="container-fluid my-5 set-bg parallax"
+				id="client-sec"
+				style="background-image: url('./assets/images/lemon_bg.png')"
+			>
+				<div class="container flex-row align-items-center py-5">
+					<div class="row">
+						<div class="col-12">
+							<h2 class="display-8 fw-bold lh-1 mb-4">
+								Who do you
+								<span style="color: #f8d708">need?</span>
+							</h2>
+						</div>
+					</div>
+
+					<div class="row">
+						<div
+							class="
+								col-lg-4 col-md-6
+								py-2
+								d-flex
+								align-items-stretch
+							"
+						>
+							<div
+								class="
+									card
+									curve-radius
+									hover-b
+									smooth-anim
+									border-0
+								"
+							>
+								<div class="card-body m-3">
+									<h1
+										class="
+											card-title
+											display-6
+											card-heading
+										"
+									>
+										Design 🎨
+									</h1>
+
+									<h5
+										class="
+											card-text
+											text-secondary
+											lead
+											mt-4
+										"
+									>
+										Logos, Wireframing, Graphics,
+										Prototyping using Adobe XD, Figma and
+										more.
+									</h5>
+								</div>
 							</div>
 						</div>
-						<div class="card" style="width: 18rem">
-							<div class="card-body">
-								<h3 class="card-title">Design 🎨</h3>
-								<p class="card-text">
-									Logos, Wireframing, Graphics, Prototyping
-									using Adobe XD, Figma and more.
-								</p>
+						<div
+							class="
+								col-lg-4 col-md-6
+								py-2
+								d-flex
+								align-items-stretch
+							"
+						>
+							<div
+								class="
+									card
+									curve-radius
+									hover-b
+									smooth-anim
+									border-0
+								"
+							>
+								<div class="card-body m-3">
+									<h1
+										class="
+											card-title
+											display-6
+											card-heading
+										"
+									>
+										Frontend 📱
+									</h1>
+									<h5
+										class="
+											card-text
+											text-secondary
+											lead
+											mt-4
+										"
+									>
+										HTML, CSS, Javascript, Bootstrap, React,
+										React Native, Angular, Unity and more.
+									</h5>
+								</div>
 							</div>
 						</div>
-						<div class="card" style="width: 18rem">
-							<div class="card-body">
-								<h3 class="card-title">Design 🎨</h3>
-								<p class="card-text">
-									Logos, Wireframing, Graphics, Prototyping
-									using Adobe XD, Figma and more.
-								</p>
+						<div
+							class="
+								col-lg-4 col-md-6
+								py-2
+								d-flex
+								align-items-stretch
+							"
+						>
+							<div
+								class="
+									card
+									curve-radius
+									hover-b
+									smooth-anim
+									border-0
+								"
+							>
+								<div class="card-body m-3">
+									<h1
+										class="
+											card-title
+											display-6
+											card-heading
+										"
+									>
+										Backend 🛠
+									</h1>
+									<h5
+										class="
+											card-text
+											text-secondary
+											lead
+											mt-4
+										"
+									>
+										Services like Node.js, Flask, Django,
+										Express.JS, Apache and more.
+									</h5>
+								</div>
+							</div>
+						</div>
+						<div
+							class="
+								col-lg-4 col-md-6
+								py-2
+								d-flex
+								align-items-stretch
+							"
+						>
+							<div
+								class="
+									card
+									curve-radius
+									hover-b
+									smooth-anim
+									border-0
+								"
+							>
+								<div class="card-body m-3">
+									<h1
+										class="
+											card-title
+											display-6
+											card-heading
+										"
+									>
+										Database 🗃
+									</h1>
+									<h5
+										class="
+											card-text
+											text-secondary
+											lead
+											mt-4
+										"
+									>
+										Support using MongoDB, Firebase, MySQL,
+										MSSQL and more.
+									</h5>
+								</div>
+							</div>
+						</div>
+						<div
+							class="
+								col-lg-4 col-md-6
+								py-2
+								d-flex
+								align-items-stretch
+							"
+						>
+							<div
+								class="
+									card
+									curve-radius
+									hover-b
+									smooth-anim
+									border-0
+								"
+							>
+								<div class="card-body m-3">
+									<h1
+										class="
+											card-title
+											display-6
+											card-heading
+										"
+									>
+										Hosting 🌥
+									</h1>
+									<h5
+										class="
+											card-text
+											text-secondary
+											lead
+											mt-4
+										"
+									>
+										Hosting services using AWS, Google
+										Cloud, Digital Ocean, Heroku, Private
+										Hosting options and more.
+									</h5>
+								</div>
+							</div>
+						</div>
+						<div
+							class="
+								col-lg-4 col-md-6
+								py-2
+								d-flex
+								align-items-stretch
+							"
+						>
+							<div
+								class="
+									card
+									curve-radius
+									hover-b
+									smooth-anim
+									border-0
+								"
+							>
+								<div class="card-body m-3">
+									<h1
+										class="
+											card-title
+											display-6
+											card-heading
+										"
+									>
+										Writing ✍
+									</h1>
+									<h5
+										class="
+											card-text
+											text-secondary
+											lead
+											mt-4
+										"
+									>
+										High Quality content writing for 3000+
+										words delivered in two days
+									</h5>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -290,10 +545,16 @@
 		<!-- Features Section -->
 		<div class="container px-4 py-7 my-5" id="features-sec">
 			<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+				<div class="col-12">
+					<h1 class="fw-bold mb-2 text-center display-5">
+						Design. Develop.
+						<span style="color: #f8d708">Deploy.</span>
+					</h1>
+				</div>
 				<div class="col-10 col-sm-8 col-lg-6">
 					<img
 						src="assets/images/Quality-Speed.png"
-						class="mx-lg-auto img-fluid"
+						class="mx-lg-auto img-fluid w-75"
 						alt="Bootstrap Themes"
 						loading="lazy"
 					/>
@@ -322,9 +583,10 @@
 						<span style="color: #f8d708">Own Forever</span>
 					</h1>
 					<p class="lead">
-						Our Designers make the most breathtaking websites and
-						our developers turn them to reality. Get a website for
-						desktops, mobile phones, tablets and more!
+						We get that it can be painful to learn to manage your
+						online presence and then above that pay monthly fee to
+						website builders. Not at lemon8. Pay once, the code and
+						hosting is yours, no hidden subscription fee!
 					</p>
 					<div
 						class="d-grid gap-2 d-md-flex justify-content-md-start"
@@ -333,7 +595,7 @@
 				<div class="col-10 col-sm-8 col-lg-6">
 					<img
 						src="assets/images/Pay-once.png"
-						class="mx-lg-auto img-fluid"
+						class="mx-lg-auto img-fluid w-75"
 						alt="Bootstrap Themes"
 						loading="lazy"
 					/>
@@ -343,7 +605,7 @@
 				<div class="col-10 col-sm-8 col-lg-6">
 					<img
 						src="assets/images/Custom-tailored.png"
-						class="mx-lg-auto img-fluid"
+						class="mx-lg-auto img-fluid w-75"
 						alt="Bootstrap Themes"
 						loading="lazy"
 					/>
@@ -354,44 +616,40 @@
 						<span style="color: #f8d708">Tailored</span>
 					</h1>
 					<p class="lead">
-						Our team of professional content writers will deliver
-						the perfect content for your brand so you can express in
-						the best way.
+						Everyone has unique needs, and we understand that. We
+						support you in all ways possible from creating AWS
+						accounts to buying and setting up domains for your
+						business. You can even select free OR paid hosting
+						options, whatever suits your requirements!
 					</p>
 					<div
 						class="d-grid gap-2 d-md-flex justify-content-md-start"
 					></div>
 				</div>
-				<div
-					class="row flex-lg-row-reverse align-items-center g-5 py-5"
-				>
-					<div class="col-lg-6">
-						<h1 class="display-10 fw-bold lh-1 mb-3">
-							Feedback and
-							<span style="color: #f8d708">Progress</span>
-						</h1>
-						<p class="lead">
-							Our team of professional content writers will
-							deliver the perfect content for your brand so you
-							can express in the best way.
-						</p>
-						<div
-							class="
-								d-grid
-								gap-2
-								d-md-flex
-								justify-content-md-start
-							"
-						></div>
-					</div>
-					<div class="col-10 col-sm-8 col-lg-6">
-						<img
-							src="assets/images/feedback.png"
-							class="mx-lg-auto img-fluid"
-							alt="Bootstrap Themes"
-							loading="lazy"
-						/>
-					</div>
+			</div>
+			<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+				<div class="col-lg-6">
+					<h1 class="display-10 fw-bold lh-1 mb-3">
+						Feedback and
+						<span style="color: #f8d708">Progress</span>
+					</h1>
+					<p class="lead">
+						You can monitor the progress of your project with
+						regular updates from our team. We even go out of the way
+						and use screen sharing utilities to get your feedback
+						and make changes in realtime.
+					</p>
+					<div
+						class="d-grid gap-2 d-md-flex justify-content-md-start"
+					></div>
+				</div>
+				<div class="col-10 col-sm-8 col-lg-6">
+					<img
+						src="assets/images/feedback.png"
+						class="mx-lg-auto img-fluid w-75"
+						alt="Bootstrap Themes"
+						loading="lazy"
+					/>
 				</div>
 			</div>
 		</div>
@@ -402,16 +660,9 @@
 			id="client-sec"
 			style="background-image: url('./assets/images/lemon_bg.png')"
 		>
-			<div
-				class="
-					container
-					flex-row
-					align-items-center
-					py-5
-				"
-			>
+			<div class="container flex-row align-items-center py-5">
 				<div class="col-12">
-					<h1 class="fw-bold mb-3 text-center">
+					<h1 class="fw-bold mb-3 text-center display-5">
 						Zero Unsatisfied
 						<span style="color: #f8d708">Clients</span>
 					</h1>
@@ -419,59 +670,214 @@
 
 				<div class="row">
 					<div class="col-md-4 py-2">
-						<div class="card border-0 bg-transparent">
-							<div class="card-body p-5 d-flex flex-column align-items-center justify-content-center hover-a smooth-anim" style="background-color: #f0fbe4;">
-								<img src="./assets/images/navbar_logo.png" width="100%">
+						<div
+							class="
+								card
+								border-0
+								bg-transparent
+								hover-b
+								smooth-anim
+							"
+						>
+							<div
+								class="
+									card-body
+									p-5
+									d-flex
+									flex-column
+									align-items-center
+									justify-content-center
+								"
+								style="background-color: #fff"
+							>
+								<img
+									src="./assets/images/clients/altered.png"
+									width="100%"
+								/>
 							</div>
 							<div class="card-body p-0 py-3">
-								<h1 class="card-title fw-bold">Lemon 8</h1>
-								<h4 class="card-text text-secondary">Branding and UX</h4>
+								<h1 class="card-title">
+									Altered State Technologies
+								</h1>
+								<h4 class="card-text text-secondary">
+									React Native, Unity Audio, Game Design and
+									Development
+								</h4>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4 py-2">
-						<div class="card border-0 bg-transparent hover-b smooth-anim">
-							<div class="card-body p-5 d-flex flex-column align-items-center justify-content-center" style="background-color: #f0fbe4;">
-								<img src="./assets/images/navbar_logo.png" width="100%">
+						<div
+							class="
+								card
+								border-0
+								bg-transparent
+								hover-b
+								smooth-anim
+							"
+						>
+							<div
+								class="
+									card-body
+									p-5
+									d-flex
+									flex-column
+									align-items-center
+									justify-content-center
+								"
+								style="background-color: #fff"
+							>
+								<img
+									src="./assets/images/clients/mnb.png"
+									width="100%"
+								/>
 							</div>
 							<div class="card-body p-0 py-3">
-								<h1 class="card-title fw-bold">Lemon 8</h1>
-								<h4 class="card-text text-secondary">Branding and UX</h4>
+								<h1 class="card-title">MnB Intelligence</h1>
+								<h4 class="card-text text-secondary">
+									Content Writing
+								</h4>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4 py-2">
-						<div class="card border-0 bg-transparent">
-							<div class="card-body p-5 d-flex flex-column align-items-center justify-content-center hover-b smooth-anim" style="background-color: #f0fbe4;">
-								<img src="./assets/images/navbar_logo.png" width="100%">
+						<div
+							class="
+								card
+								border-0
+								bg-transparent
+								hover-b
+								smooth-anim
+							"
+						>
+							<div
+								class="
+									card-body
+									p-5
+									d-flex
+									flex-column
+									align-items-center
+									justify-content-center
+								"
+								style="background-color: #fff"
+							>
+								<img
+									src="./assets/images/clients/ramayani.png"
+									width="100%"
+								/>
 							</div>
 							<div class="card-body p-0 py-3">
-								<h1 class="card-title fw-bold">Lemon 8</h1>
-								<h4 class="card-text text-secondary">Branding and UX</h4>
+								<h1 class="card-title">Ramayani Sweets</h1>
+								<h4 class="card-text text-secondary">
+									Static Website, Hosting and Content Writing
+								</h4>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-4 py-2">
-						<div class="card curve-radius border-0 hover-a smooth-anim">
-							<div class="card-body curve-radius p-5 d-flex flex-column align-items-center justify-content-center" style="background-color: #f0fbe4; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;">
-								<img src="./assets/images/navbar_logo.png" width="100%">
+						<div
+							class="
+								card
+								border-0
+								bg-transparent
+								hover-b
+								smooth-anim
+							"
+						>
+							<div
+								class="
+									card-body
+									p-5
+									d-flex
+									flex-column
+									align-items-center
+									justify-content-center
+								"
+								style="background-color: #fff"
+							>
+								<img
+									src="./assets/images/clients/204.png"
+									width="100%"
+									style="width: 55%"
+								/>
 							</div>
-							<div class="card-body curve-radius">
-								<h1 class="card-title fw-bold">Lemon 8</h1>
-								<h4 class="card-text text-secondary">Branding and UX</h4>
+							<div class="card-body p-0 py-3">
+								<h1 class="card-title">Two04 Technologies</h1>
+								<h4 class="card-text text-secondary">
+									Static Website Design, Development, Hosting
+									and Content Writing
+								</h4>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4 py-2">
-						<div class="card curve-radius border-0 hover-b smooth-anim">
-							<div class="card-body curve-radius p-5 d-flex flex-column align-items-center justify-content-center" style="background-color: #f0fbe4; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;">
-								<img src="./assets/images/navbar_logo.png" width="100%">
+						<div
+							class="
+								card
+								border-0
+								bg-transparent
+								hover-b
+								smooth-anim
+							"
+						>
+							<div
+								class="
+									card-body
+									p-5
+									d-flex
+									flex-column
+									align-items-center
+									justify-content-center
+								"
+								style="background-color: #fff"
+							>
+								<img
+									src="./assets/images/clients/scale.png"
+									width="100%"
+								/>
 							</div>
-							<div class="card-body curve-radius">
-								<h1 class="card-title fw-bold">Lemon 8</h1>
-								<h4 class="card-text text-secondary">Branding and UX</h4>
+							<div class="card-body p-0 py-3">
+								<h1 class="card-title">Scale Greens</h1>
+								<h4 class="card-text text-secondary">
+									Content Writing
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 py-2">
+						<div
+							class="
+								card
+								border-0
+								bg-transparent
+								hover-b
+								smooth-anim
+							"
+						>
+							<div
+								class="
+									card-body
+									p-5
+									d-flex
+									flex-column
+									align-items-center
+									justify-content-center
+								"
+								style="background-color: #fff"
+							>
+								<img
+									src="./assets/images/clients/tweek.png"
+									width="100%"
+								/>
+							</div>
+							<div class="card-body p-0 py-3">
+								<h1 class="card-title">Tweek Labs</h1>
+								<h4 class="card-text text-secondary">
+									Branding and UX, Tablet and Phone App
+									Android, iOS Development
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -480,41 +886,56 @@
 		</div>
 
 		<!-- Contact Section -->
-		<div
-			class="container-fluid my-5"
-			id="contact-sec"
-		>
-			<div
-				class="
-					container
-					flex-row
-					align-items-center
-					py-5
-				"
-			>
+		<div class="container-fluid my-5" id="contact-sec">
+			<div class="container flex-row align-items-center py-5">
 				<div class="col-12">
 					<h1 class="fw-bold mb-2 text-center">
 						Lets’s Build Something
 						<span style="color: #f8d708">Great</span>
 					</h1>
 					<h3 class="fw-bold mb-5 text-center text-secondary">
-						Email, call or Whatsapp us and lets create big things together :)
+						Email, call or Whatsapp us and lets create big things
+						together :)
 					</h3>
 				</div>
 
 				<div class="card curve-radius p-0 border-0 mb-3 shadow">
 					<div class="row g-0">
 						<div class="col-md-4">
-							<div class="card-body curve-radius p-5 set-bg" style="background-image: url('./assets/images/lemon_bg.png'); overflow: hidden;">
-								<h3 class="card-title fw-bold">Contact Information</h3>
-								<h6 class="card-text mb-5">Fill up the form or reach out to us on the below details.</h6>
-								<h5 class="card-text mb-5"><i class="bi-telephone-fill"></i> +91 9810556335</h5>
-								<h5 class="card-text mb-5"><i class="bi-envelope-fill"></i> lemon8.in@gmail.com</h5>
-								<h5 class="card-text mb-5"><i class="bi-geo-alt-fill"></i> New Delhi, IN</h5>
-								<img src="./assets/images/lemon_smile.png" class="img-styler float-end">
+							<div
+								class="card-body curve-radius p-5 set-bg"
+								style="
+									background-image: url('./assets/images/lemon_bg.png');
+									overflow: hidden;
+								"
+							>
+								<h3 class="card-title fw-bold">
+									Contact Information
+								</h3>
+								<h6 class="card-text mb-5">
+									Fill up the form or reach out to us on the
+									below details.
+								</h6>
+								<h5 class="card-text mb-5">
+									<i class="bi-telephone-fill"></i> +91
+									9810556335
+								</h5>
+								<h5 class="card-text mb-5">
+									<i class="bi-envelope-fill"></i>
+									lemon8.in@gmail.com
+								</h5>
+								<h5 class="card-text mb-5">
+									<i class="bi-geo-alt-fill"></i> New Delhi,
+									IN
+								</h5>
+								<img
+									src="./assets/images/lemon_smile.png"
+									class="img-styler float-end"
+								/>
 							</div>
-						</div>		
+						</div>
 						<div class="col-md-8">
+<<<<<<< HEAD
 							<form class="card-body curve-radius p-5 d-flex flex-column justify-content-between" style="height: 100%;" id="contactForm">
 								<div class="row g-4 mb-4">
 									<div class="col-md-6">
@@ -524,22 +945,85 @@
 									<div class="col-md-6">
 										<label for="entry.782991894" class="form-label">Last Name</label>
 										<input type="text" class="form-control" id="entry.782991894" placeholder="Enter your Last Name" required>
+=======
+							<form
+								class="
+									card-body
+									curve-radius
+									p-5
+									d-flex
+									flex-column
+									justify-content-between
+								"
+								style="height: 100%"
+							>
+								<div class="row g-4 mb-4">
+									<div class="col-md-6">
+										<label
+											for="firstName"
+											class="form-label"
+											>First Name</label
+										>
+										<input
+											type="text"
+											class="form-control"
+											id="firstName"
+											placeholder="Enter your First Name"
+										/>
+									</div>
+									<div class="col-md-6">
+										<label for="lastName" class="form-label"
+											>Last Name</label
+										>
+										<input
+											type="text"
+											class="form-control"
+											id="lastName"
+											placeholder="Enter your Last Name"
+										/>
+>>>>>>> master
 									</div>
 								</div>
 								<div class="row g-4 mb-4">
 									<div class="col-md-6">
+<<<<<<< HEAD
 										<label for="entry.557613743" class="form-label">Email</label>
 										<input type="text" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="entry.557613743" placeholder="Enter your Email" required>
 									</div>
 									<div class="col-md-6">
 										<label for="entry.2124275952" class="form-label">Phone</label>
 										<input type="text" class="form-control" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" id="entry.2124275952" placeholder="Enter your Phone" required>
+=======
+										<label for="email" class="form-label"
+											>Email</label
+										>
+										<input
+											type="email"
+											class="form-control"
+											id="email"
+											placeholder="Enter your Email"
+										/>
+									</div>
+									<div class="col-md-6">
+										<label for="phone" class="form-label"
+											>Phone</label
+										>
+										<input
+											type="text"
+											class="form-control"
+											id="phone"
+											placeholder="Enter your Phone"
+										/>
+>>>>>>> master
 									</div>
 								</div>
 
-								<label class="form-label">What do you want help with?</label>
+								<label class="form-label"
+									>What do you want help with?</label
+								>
 								<div class="col-12 mb-4">
 									<div class="form-check form-check-inline">
+<<<<<<< HEAD
 										<input class="form-check-input" type="checkbox" id="checkbox1" value="Design">
 										<label class="form-check-label" for="checkbox1">Design</label>
 									</div>
@@ -554,10 +1038,63 @@
 									<div class="form-check form-check-inline">
 										<input class="form-check-input" type="checkbox" id="checkbox4" value="Others">
 										<label class="form-check-label" for="checkbox4">Other</label>
+=======
+										<input
+											class="form-check-input"
+											type="checkbox"
+											id="inlineCheckbox1"
+											value="option1"
+										/>
+										<label
+											class="form-check-label"
+											for="inlineCheckbox1"
+											>Design</label
+										>
+									</div>
+									<div class="form-check form-check-inline">
+										<input
+											class="form-check-input"
+											type="checkbox"
+											id="inlineCheckbox2"
+											value="option2"
+										/>
+										<label
+											class="form-check-label"
+											for="inlineCheckbox2"
+											>Development</label
+										>
+									</div>
+									<div class="form-check form-check-inline">
+										<input
+											class="form-check-input"
+											type="checkbox"
+											id="inlineCheckbox3"
+											value="option3"
+										/>
+										<label
+											class="form-check-label"
+											for="inlineCheckbox3"
+											>Content Creation</label
+										>
+									</div>
+									<div class="form-check form-check-inline">
+										<input
+											class="form-check-input"
+											type="checkbox"
+											id="inlineCheckbox4"
+											value="option4"
+										/>
+										<label
+											class="form-check-label"
+											for="inlineCheckbox4"
+											>Other</label
+										>
+>>>>>>> master
 									</div>
 								</div>
 
 								<div class="col-12 mb-4">
+<<<<<<< HEAD
 									<label for="&entry.1126698927" class="form-label">Message</label>
 									<textarea class="form-control" id="&entry.1126698927" rows="1" placeholder="Type in your message..."></textarea>
 								</div>
@@ -567,6 +1104,30 @@
 								</div>
 
 								<button type="button" class="btn btn-warning px-4 me-md-2 align-self-end" onclick="submitForm()">Let's Go</button>
+=======
+									<label for="message" class="form-label"
+										>Message</label
+									>
+									<textarea
+										class="form-control"
+										id="message"
+										rows="1"
+										placeholder="Type in your message..."
+									></textarea>
+								</div>
+
+								<button
+									type="submit"
+									class="
+										btn btn-warning
+										px-4
+										me-md-2
+										align-self-end
+									"
+								>
+									Let's Go
+								</button>
+>>>>>>> master
 							</form>
 						</div>
 					</div>
