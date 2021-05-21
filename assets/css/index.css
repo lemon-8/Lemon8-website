@@ -116,6 +116,7 @@ body {
 	background-color: #f8d708;
 	border-color: #f8d708;
 }
+
 .btn-primary:hover {
 	background-color: #ffe646;
 	border-color: #ffe646;
@@ -127,6 +128,15 @@ body {
 .btn-primary:active {
 	background-color: #ffe646;
 	border-color: #ffe646;
+}
+.btn-outline-primary {
+	color: #f8d708;
+	border-color: #f8d708;
+}
+.btn-outline-primary:hover {
+	background-color: #f8d708;
+	border-color: #f8d708;
+	color: #fff;
 }
 .card-body {
 	border-radius: 15px;
@@ -140,4 +150,10 @@ body {
 	background-color: #f8d708;
 	border-radius: 50rem;
 	border: 1.5px solid #f8d708;
+}
+.lemon-links {
+	cursor: pointer;
+}
+.lemon-links:hover {
+	color: #555;
 }
